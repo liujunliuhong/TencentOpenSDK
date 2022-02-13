@@ -16,18 +16,31 @@ Pod::Spec.new do |spec|
   spec.author                   = { 'liujunliuhong' => '1035841713@qq.com' }
   spec.platform                 = :ios, '10.0'
   spec.ios.deployment_target    = '10.0'
-  # spec.module_name              = 'TencentOpenApi' # 模块名和微信保持一致
   spec.requires_arc             = true
-  # spec.static_framework         = true
-  # spec.swift_version            = '5.0'
-  spec.vendored_frameworks 	    = 'Sources/TencentOpenApi/*.framework'
-  spec.resource                 = 'Sources/TencentOpenApi/*.bundle'
+  spec.vendored_frameworks 	    = 'Sources/TencentOpenAPI.framework'
+  spec.resource                 = 'Sources/TencentOpenApi_IOS_Bundle.bundle'
 
   spec.frameworks               = 'Security', 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics', 'WebKit'
   spec.libraries                = 'iconv', 'z', 'stdc++', 'sqlite3', 'c++'
 
+  
+  spec.prepare_command = <<-EOF
+  rm -rf Sources/TencentOpenAPI.framework/Headers/*.modulemap
+  rm -rf Sources/TencentOpenAPI.framework/Modules
+  mkdir Sources/TencentOpenAPI.framework/Modules
+  touch Sources/TencentOpenAPI.framework/Modules/module.modulemap
+  cat <<-EOF > Sources/TencentOpenAPI.framework/Modules/module.modulemap
+  framework module TencentOpenAPI {
+    umbrella header "TencentOpenApiUmbrellaHeader.h"
+    export *
+    module * { export * }
+  }
+  \EOF
+
+  EOF
+
   spec.pod_target_xcconfig      = {
     'VALID_ARCHS' => 'x86_64 armv7 arm64',
     'LD_RUNPATH_SEARCH_PATHS' => '$(PODS_ROOT)/Sources/'
-  } 
+  }
 end

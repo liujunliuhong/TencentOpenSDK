@@ -8,12 +8,14 @@
 import UIKit
 //import TencentOpenApi
 //import TencentOpenAPI
+import TencentOpenAPI
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        TencentOAuth.handleOpen(URL(string: "")!)
     }
 
 
