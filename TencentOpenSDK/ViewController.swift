@@ -7,6 +7,7 @@
 
 import UIKit
 //import TencentOpenApi
+//import TencentOpenAPI
 
 class ViewController: UIViewController {
 
