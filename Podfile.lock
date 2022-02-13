@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TencentOpenSDK-iOS:
-    :commit: f55f0067d778fc2c434a57990857f4630b40f965
+    :commit: bf201c65b8dae1e724f44c06433974d8d0f77271
     :git: https://github.com/liujunliuhong/TencentOpenSDK.git
 
 SPEC CHECKSUMS:
-  TencentOpenSDK-iOS: 775d61faa486eb377412b308f8eb260ae5af5333
+  TencentOpenSDK-iOS: 493699bb627b504ee75208b8cd5f60899567bccf
 
 PODFILE CHECKSUM: ddf32548d5e114dcde74e0a12aa1e14f8eecc7dd
 
