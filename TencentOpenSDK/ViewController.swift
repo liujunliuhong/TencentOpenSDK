@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+//import TencentOpenApi
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

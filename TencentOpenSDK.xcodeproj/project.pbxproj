@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3011B35DD36EF0FBA6D5E285 /* Pods_TencentOpenSDK_TencentOpenSDKUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36993BAD50E624645636735 /* Pods_TencentOpenSDK_TencentOpenSDKUITests.framework */; };
+		7AB079147388DE6C8E77A0EC /* Pods_TencentOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A76FB440A206A26F9DF1EEB /* Pods_TencentOpenSDK.framework */; };
+		7D560BB23ACFC68CCCC45B10 /* Pods_TencentOpenSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543DFDE649352BCEA6BE2CDD /* Pods_TencentOpenSDKTests.framework */; };
 		85B5262E27B8D186007317D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5262D27B8D186007317D3 /* AppDelegate.swift */; };
 		85B5263227B8D186007317D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5263127B8D186007317D3 /* ViewController.swift */; };
 		85B5263527B8D186007317D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B5263327B8D186007317D3 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0765558013B3ED4A038ABE87 /* Pods-TencentOpenSDK-TencentOpenSDKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentOpenSDK-TencentOpenSDKUITests.release.xcconfig"; path = "Target Support Files/Pods-TencentOpenSDK-TencentOpenSDKUITests/Pods-TencentOpenSDK-TencentOpenSDKUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49EA9659CDE89320E2C25FBB /* Pods-TencentOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentOpenSDK.release.xcconfig"; path = "Target Support Files/Pods-TencentOpenSDK/Pods-TencentOpenSDK.release.xcconfig"; sourceTree = "<group>"; };
+		543DFDE649352BCEA6BE2CDD /* Pods_TencentOpenSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TencentOpenSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B5262A27B8D186007317D3 /* TencentOpenSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TencentOpenSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B5262D27B8D186007317D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85B5263127B8D186007317D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		85B5264A27B8D188007317D3 /* TencentOpenSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TencentOpenSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B5264E27B8D188007317D3 /* TencentOpenSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentOpenSDKUITests.swift; sourceTree = "<group>"; };
 		85B5265027B8D188007317D3 /* TencentOpenSDKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentOpenSDKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A76FB440A206A26F9DF1EEB /* Pods_TencentOpenSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TencentOpenSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31A02310E49749ECA0138CE /* Pods-TencentOpenSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentOpenSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-TencentOpenSDKTests/Pods-TencentOpenSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0D029D6794DDF5765FA1DE7 /* Pods-TencentOpenSDK-TencentOpenSDKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentOpenSDK-TencentOpenSDKUITests.debug.xcconfig"; path = "Target Support Files/Pods-TencentOpenSDK-TencentOpenSDKUITests/Pods-TencentOpenSDK-TencentOpenSDKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0600ABD93EF0339A912E553 /* Pods-TencentOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentOpenSDK.debug.xcconfig"; path = "Target Support Files/Pods-TencentOpenSDK/Pods-TencentOpenSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		CE21F7BD8AC1EA99D174AA22 /* Pods-TencentOpenSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TencentOpenSDKTests.release.xcconfig"; path = "Target Support Files/Pods-TencentOpenSDKTests/Pods-TencentOpenSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		F36993BAD50E624645636735 /* Pods_TencentOpenSDK_TencentOpenSDKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TencentOpenSDK_TencentOpenSDKUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB079147388DE6C8E77A0EC /* Pods_TencentOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D560BB23ACFC68CCCC45B10 /* Pods_TencentOpenSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3011B35DD36EF0FBA6D5E285 /* Pods_TencentOpenSDK_TencentOpenSDKUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		338BAE320FF875DA35910D32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0600ABD93EF0339A912E553 /* Pods-TencentOpenSDK.debug.xcconfig */,
+				49EA9659CDE89320E2C25FBB /* Pods-TencentOpenSDK.release.xcconfig */,
+				B0D029D6794DDF5765FA1DE7 /* Pods-TencentOpenSDK-TencentOpenSDKUITests.debug.xcconfig */,
+				0765558013B3ED4A038ABE87 /* Pods-TencentOpenSDK-TencentOpenSDKUITests.release.xcconfig */,
+				A31A02310E49749ECA0138CE /* Pods-TencentOpenSDKTests.debug.xcconfig */,
+				CE21F7BD8AC1EA99D174AA22 /* Pods-TencentOpenSDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		85B5262127B8D186007317D3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				85B5264327B8D188007317D3 /* TencentOpenSDKTests */,
 				85B5264D27B8D188007317D3 /* TencentOpenSDKUITests */,
 				85B5262B27B8D186007317D3 /* Products */,
+				338BAE320FF875DA35910D32 /* Pods */,
+				86F205919B6D7DA5053C1978 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +155,16 @@
 			path = TencentOpenSDKUITests;
 			sourceTree = "<group>";
 		};
+		86F205919B6D7DA5053C1978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A76FB440A206A26F9DF1EEB /* Pods_TencentOpenSDK.framework */,
+				F36993BAD50E624645636735 /* Pods_TencentOpenSDK_TencentOpenSDKUITests.framework */,
+				543DFDE649352BCEA6BE2CDD /* Pods_TencentOpenSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85B5265427B8D188007317D3 /* Build configuration list for PBXNativeTarget "TencentOpenSDK" */;
 			buildPhases = (
+				3866149EB3F3012A2187A318 /* [CP] Check Pods Manifest.lock */,
 				85B5262627B8D186007317D3 /* Sources */,
 				85B5262727B8D186007317D3 /* Frameworks */,
 				85B5262827B8D186007317D3 /* Resources */,
+				F8D4CED1821732BF80D112CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85B5265727B8D188007317D3 /* Build configuration list for PBXNativeTarget "TencentOpenSDKTests" */;
 			buildPhases = (
+				FC4849AE4673061E659B4F17 /* [CP] Check Pods Manifest.lock */,
 				85B5263C27B8D188007317D3 /* Sources */,
 				85B5263D27B8D188007317D3 /* Frameworks */,
 				85B5263E27B8D188007317D3 /* Resources */,
@@ -166,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85B5265A27B8D188007317D3 /* Build configuration list for PBXNativeTarget "TencentOpenSDKUITests" */;
 			buildPhases = (
+				35F81F1A8BDA14A51F04FFE2 /* [CP] Check Pods Manifest.lock */,
 				85B5264627B8D188007317D3 /* Sources */,
 				85B5264727B8D188007317D3 /* Frameworks */,
 				85B5264827B8D188007317D3 /* Resources */,
+				4740D1EAA84E4A543648860C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +295,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35F81F1A8BDA14A51F04FFE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TencentOpenSDK-TencentOpenSDKUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3866149EB3F3012A2187A318 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TencentOpenSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4740D1EAA84E4A543648860C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK-TencentOpenSDKUITests/Pods-TencentOpenSDK-TencentOpenSDKUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK-TencentOpenSDKUITests/Pods-TencentOpenSDK-TencentOpenSDKUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK-TencentOpenSDKUITests/Pods-TencentOpenSDK-TencentOpenSDKUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D4CED1821732BF80D112CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK/Pods-TencentOpenSDK-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK/Pods-TencentOpenSDK-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK/Pods-TencentOpenSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4849AE4673061E659B4F17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TencentOpenSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85B5262627B8D186007317D3 /* Sources */ = {
@@ -430,6 +579,7 @@
 		};
 		85B5265527B8D188007317D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0600ABD93EF0339A912E553 /* Pods-TencentOpenSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +609,7 @@
 		};
 		85B5265627B8D188007317D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49EA9659CDE89320E2C25FBB /* Pods-TencentOpenSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		85B5265827B8D188007317D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31A02310E49749ECA0138CE /* Pods-TencentOpenSDKTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +665,7 @@
 		};
 		85B5265927B8D188007317D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE21F7BD8AC1EA99D174AA22 /* Pods-TencentOpenSDKTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +691,7 @@
 		};
 		85B5265B27B8D188007317D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D029D6794DDF5765FA1DE7 /* Pods-TencentOpenSDK-TencentOpenSDKUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -561,6 +715,7 @@
 		};
 		85B5265C27B8D188007317D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0765558013B3ED4A038ABE87 /* Pods-TencentOpenSDK-TencentOpenSDKUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
