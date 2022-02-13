@@ -5,6 +5,7 @@ target 'TencentOpenSDK' do
   use_frameworks!
 
   #pod 'TencentOpenSDK-iOS', :git => 'https://github.com/liujunliuhong/TencentOpenSDK.git'
+
   target 'TencentOpenSDKTests' do
     inherit! :search_paths
     # Pods for testing
