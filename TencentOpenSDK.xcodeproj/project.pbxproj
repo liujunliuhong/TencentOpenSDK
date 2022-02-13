@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85B5262E27B8D186007317D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5262D27B8D186007317D3 /* AppDelegate.swift */; };
+		85B5263227B8D186007317D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5263127B8D186007317D3 /* ViewController.swift */; };
+		85B5263527B8D186007317D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B5263327B8D186007317D3 /* Main.storyboard */; };
+		85B5263727B8D187007317D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85B5263627B8D187007317D3 /* Assets.xcassets */; };
+		85B5263A27B8D187007317D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B5263827B8D187007317D3 /* LaunchScreen.storyboard */; };
+		85B5264527B8D188007317D3 /* TencentOpenSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5264427B8D188007317D3 /* TencentOpenSDKTests.swift */; };
+		85B5264F27B8D188007317D3 /* TencentOpenSDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5264E27B8D188007317D3 /* TencentOpenSDKUITests.swift */; };
+		85B5265127B8D188007317D3 /* TencentOpenSDKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B5265027B8D188007317D3 /* TencentOpenSDKUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85B5264127B8D188007317D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B5262227B8D186007317D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B5262927B8D186007317D3;
+			remoteInfo = TencentOpenSDK;
+		};
+		85B5264B27B8D188007317D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85B5262227B8D186007317D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85B5262927B8D186007317D3;
+			remoteInfo = TencentOpenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85B5262A27B8D186007317D3 /* TencentOpenSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TencentOpenSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B5262D27B8D186007317D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85B5263127B8D186007317D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85B5263427B8D186007317D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85B5263627B8D187007317D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85B5263927B8D187007317D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85B5263B27B8D187007317D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B5264027B8D188007317D3 /* TencentOpenSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TencentOpenSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B5264427B8D188007317D3 /* TencentOpenSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentOpenSDKTests.swift; sourceTree = "<group>"; };
+		85B5264A27B8D188007317D3 /* TencentOpenSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TencentOpenSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B5264E27B8D188007317D3 /* TencentOpenSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentOpenSDKUITests.swift; sourceTree = "<group>"; };
+		85B5265027B8D188007317D3 /* TencentOpenSDKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentOpenSDKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85B5262727B8D186007317D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B5263D27B8D188007317D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B5264727B8D188007317D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85B5262127B8D186007317D3 = {
+			isa = PBXGroup;
+			children = (
+				85B5262C27B8D186007317D3 /* TencentOpenSDK */,
+				85B5264327B8D188007317D3 /* TencentOpenSDKTests */,
+				85B5264D27B8D188007317D3 /* TencentOpenSDKUITests */,
+				85B5262B27B8D186007317D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85B5262B27B8D186007317D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85B5262A27B8D186007317D3 /* TencentOpenSDK.app */,
+				85B5264027B8D188007317D3 /* TencentOpenSDKTests.xctest */,
+				85B5264A27B8D188007317D3 /* TencentOpenSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85B5262C27B8D186007317D3 /* TencentOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				85B5262D27B8D186007317D3 /* AppDelegate.swift */,
+				85B5263127B8D186007317D3 /* ViewController.swift */,
+				85B5263327B8D186007317D3 /* Main.storyboard */,
+				85B5263627B8D187007317D3 /* Assets.xcassets */,
+				85B5263827B8D187007317D3 /* LaunchScreen.storyboard */,
+				85B5263B27B8D187007317D3 /* Info.plist */,
+			);
+			path = TencentOpenSDK;
+			sourceTree = "<group>";
+		};
+		85B5264327B8D188007317D3 /* TencentOpenSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				85B5264427B8D188007317D3 /* TencentOpenSDKTests.swift */,
+			);
+			path = TencentOpenSDKTests;
+			sourceTree = "<group>";
+		};
+		85B5264D27B8D188007317D3 /* TencentOpenSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85B5264E27B8D188007317D3 /* TencentOpenSDKUITests.swift */,
+				85B5265027B8D188007317D3 /* TencentOpenSDKUITestsLaunchTests.swift */,
+			);
+			path = TencentOpenSDKUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85B5262927B8D186007317D3 /* TencentOpenSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B5265427B8D188007317D3 /* Build configuration list for PBXNativeTarget "TencentOpenSDK" */;
+			buildPhases = (
+				85B5262627B8D186007317D3 /* Sources */,
+				85B5262727B8D186007317D3 /* Frameworks */,
+				85B5262827B8D186007317D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TencentOpenSDK;
+			productName = TencentOpenSDK;
+			productReference = 85B5262A27B8D186007317D3 /* TencentOpenSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85B5263F27B8D188007317D3 /* TencentOpenSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B5265727B8D188007317D3 /* Build configuration list for PBXNativeTarget "TencentOpenSDKTests" */;
+			buildPhases = (
+				85B5263C27B8D188007317D3 /* Sources */,
+				85B5263D27B8D188007317D3 /* Frameworks */,
+				85B5263E27B8D188007317D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B5264227B8D188007317D3 /* PBXTargetDependency */,
+			);
+			name = TencentOpenSDKTests;
+			productName = TencentOpenSDKTests;
+			productReference = 85B5264027B8D188007317D3 /* TencentOpenSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85B5264927B8D188007317D3 /* TencentOpenSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85B5265A27B8D188007317D3 /* Build configuration list for PBXNativeTarget "TencentOpenSDKUITests" */;
+			buildPhases = (
+				85B5264627B8D188007317D3 /* Sources */,
+				85B5264727B8D188007317D3 /* Frameworks */,
+				85B5264827B8D188007317D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85B5264C27B8D188007317D3 /* PBXTargetDependency */,
+			);
+			name = TencentOpenSDKUITests;
+			productName = TencentOpenSDKUITests;
+			productReference = 85B5264A27B8D188007317D3 /* TencentOpenSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85B5262227B8D186007317D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					85B5262927B8D186007317D3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					85B5263F27B8D188007317D3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 85B5262927B8D186007317D3;
+					};
+					85B5264927B8D188007317D3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 85B5262927B8D186007317D3;
+					};
+				};
+			};
+			buildConfigurationList = 85B5262527B8D186007317D3 /* Build configuration list for PBXProject "TencentOpenSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85B5262127B8D186007317D3;
+			productRefGroup = 85B5262B27B8D186007317D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85B5262927B8D186007317D3 /* TencentOpenSDK */,
+				85B5263F27B8D188007317D3 /* TencentOpenSDKTests */,
+				85B5264927B8D188007317D3 /* TencentOpenSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85B5262827B8D186007317D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B5263A27B8D187007317D3 /* LaunchScreen.storyboard in Resources */,
+				85B5263727B8D187007317D3 /* Assets.xcassets in Resources */,
+				85B5263527B8D186007317D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B5263E27B8D188007317D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B5264827B8D188007317D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85B5262627B8D186007317D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B5263227B8D186007317D3 /* ViewController.swift in Sources */,
+				85B5262E27B8D186007317D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B5263C27B8D188007317D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B5264527B8D188007317D3 /* TencentOpenSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B5264627B8D188007317D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B5264F27B8D188007317D3 /* TencentOpenSDKUITests.swift in Sources */,
+				85B5265127B8D188007317D3 /* TencentOpenSDKUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85B5264227B8D188007317D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B5262927B8D186007317D3 /* TencentOpenSDK */;
+			targetProxy = 85B5264127B8D188007317D3 /* PBXContainerItemProxy */;
+		};
+		85B5264C27B8D188007317D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85B5262927B8D186007317D3 /* TencentOpenSDK */;
+			targetProxy = 85B5264B27B8D188007317D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85B5263327B8D186007317D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B5263427B8D186007317D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85B5263827B8D187007317D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85B5263927B8D187007317D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85B5265227B8D188007317D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85B5265327B8D188007317D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85B5265527B8D188007317D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2E8NVCJR97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TencentOpenSDK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.TencentOpenSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85B5265627B8D188007317D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2E8NVCJR97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TencentOpenSDK/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.TencentOpenSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85B5265827B8D188007317D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2E8NVCJR97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.TencentOpenSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TencentOpenSDK.app/TencentOpenSDK";
+			};
+			name = Debug;
+		};
+		85B5265927B8D188007317D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2E8NVCJR97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.TencentOpenSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TencentOpenSDK.app/TencentOpenSDK";
+			};
+			name = Release;
+		};
+		85B5265B27B8D188007317D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2E8NVCJR97;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.TencentOpenSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TencentOpenSDK;
+			};
+			name = Debug;
+		};
+		85B5265C27B8D188007317D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2E8NVCJR97;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galaxy.TencentOpenSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TencentOpenSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85B5262527B8D186007317D3 /* Build configuration list for PBXProject "TencentOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B5265227B8D188007317D3 /* Debug */,
+				85B5265327B8D188007317D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B5265427B8D188007317D3 /* Build configuration list for PBXNativeTarget "TencentOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B5265527B8D188007317D3 /* Debug */,
+				85B5265627B8D188007317D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B5265727B8D188007317D3 /* Build configuration list for PBXNativeTarget "TencentOpenSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B5265827B8D188007317D3 /* Debug */,
+				85B5265927B8D188007317D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85B5265A27B8D188007317D3 /* Build configuration list for PBXNativeTarget "TencentOpenSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85B5265B27B8D188007317D3 /* Debug */,
+				85B5265C27B8D188007317D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85B5262227B8D186007317D3 /* Project object */;
+}
