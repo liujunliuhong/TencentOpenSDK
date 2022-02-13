@@ -176,6 +176,7 @@
 				85B5262627B8D186007317D3 /* Sources */,
 				85B5262727B8D186007317D3 /* Frameworks */,
 				85B5262827B8D186007317D3 /* Resources */,
+				01B15FD981E150465104E0A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +214,7 @@
 				85B5264627B8D188007317D3 /* Sources */,
 				85B5264727B8D188007317D3 /* Frameworks */,
 				85B5264827B8D188007317D3 /* Resources */,
+				6E9F9574A68CA2A94F9422EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,6 +297,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		01B15FD981E150465104E0A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK/Pods-TencentOpenSDK-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK/Pods-TencentOpenSDK-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK/Pods-TencentOpenSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		35F81F1A8BDA14A51F04FFE2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -337,6 +356,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E9F9574A68CA2A94F9422EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK-TencentOpenSDKUITests/Pods-TencentOpenSDK-TencentOpenSDKUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK-TencentOpenSDKUITests/Pods-TencentOpenSDK-TencentOpenSDKUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TencentOpenSDK-TencentOpenSDKUITests/Pods-TencentOpenSDK-TencentOpenSDKUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FC4849AE4673061E659B4F17 /* [CP] Check Pods Manifest.lock */ = {
