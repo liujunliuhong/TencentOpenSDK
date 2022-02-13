@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: 5e355d615e5629d5fef1c1dfcc27a9999b0c5aeb
+PODS:
+  - TencentOpenSDK-iOS (3.5.10)
+
+DEPENDENCIES:
+  - TencentOpenSDK-iOS (from `https://github.com/liujunliuhong/TencentOpenSDK.git`)
+
+EXTERNAL SOURCES:
+  TencentOpenSDK-iOS:
+    :git: https://github.com/liujunliuhong/TencentOpenSDK.git
+
+CHECKOUT OPTIONS:
+  TencentOpenSDK-iOS:
+    :commit: f55f0067d778fc2c434a57990857f4630b40f965
+    :git: https://github.com/liujunliuhong/TencentOpenSDK.git
+
+SPEC CHECKSUMS:
+  TencentOpenSDK-iOS: 775d61faa486eb377412b308f8eb260ae5af5333
+
+PODFILE CHECKSUM: ddf32548d5e114dcde74e0a12aa1e14f8eecc7dd
 
 COCOAPODS: 1.11.2

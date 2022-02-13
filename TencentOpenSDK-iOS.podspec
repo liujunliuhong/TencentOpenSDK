@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc             = true
   # spec.static_framework         = true
   # spec.swift_version            = '5.0'
-  spec.ios.vendored_frameworks 	= 'Sources/TencentOpenApi/*.framework'
+  spec.vendored_frameworks 	    = 'Sources/TencentOpenApi/*.framework'
   spec.resource                 = 'Sources/TencentOpenApi/*.bundle'
 
   spec.frameworks               = 'Security', 'SystemConfiguration', 'CoreTelephony', 'CoreGraphics', 'WebKit'
